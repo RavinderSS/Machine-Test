@@ -10,7 +10,6 @@ The app features a bottom navigation bar with three tabs:
 - 📋 **List**
 - 🔐 **Login**
 
----
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +21,16 @@ The app features a bottom navigation bar with three tabs:
 - **Asynchronous Programming:** Kotlin Coroutines & Flows
 - **Maps:** Google Maps SDK
 
----
+## Requirements
+
+To run the samples, you will need:
+
+- To [sign up with Google Maps Platform]
+- A Google Maps Platform [project] with the **Maps SDK for Android** enabled
+- An [API key] associated with the project above ... follow the [API key instructions] if you're new to the process
+- See each sample for pre-requisites.
+- All require up-to-date versions of the Android build tools and the Android support repository.
+
 
 ## 🚀 Features
 
@@ -44,7 +52,6 @@ The app features a bottom navigation bar with three tabs:
 - Focused on evaluating **UI/UX design**.
 - No authentication logic — purely UI/UX based.
 
----
 
 ## 💾 Data Persistence
 
@@ -52,7 +59,6 @@ The app features a bottom navigation bar with three tabs:
 - Markers are represented by an entity and accessed through a DAO.
 - Data flow is managed using Kotlin **Flow**, ensuring reactive updates.
 
----
 
 ## 🔄 State Management
 
@@ -60,7 +66,6 @@ The app features a bottom navigation bar with three tabs:
 - Navigation does **not reload screens**.
 - Marker data is retained even after app restarts due to Room persistence.
 
----
 ## 🧪 How to Run
 
 1. Clone the repository.
@@ -68,7 +73,6 @@ The app features a bottom navigation bar with three tabs:
 3. Add your **Google Maps API key** to `local.properties` or directly in the `AndroidManifest.xml`.
 4. Build and run on an emulator or real device.
 
----
 
 ## ✅ Evaluation Criteria
 
@@ -78,11 +82,15 @@ The app features a bottom navigation bar with three tabs:
 - Efficient use of Kotlin, Coroutines, and Flows.
 - Clean implementation of dependency injection using Dagger Hilt.
 
----
 
 ## 📌 Notes
 
 This project is intended for demonstration and evaluation purposes. Ensure all functionality works as expected and follows best practices in modern Android development.
+
+[API key]: https://developers.google.com/maps/documentation/android-sdk/get-api-key
+[API key instructions]: https://developers.google.com/maps/documentation/android-sdk/config#step_3_add_your_api_key_to_the_project
+[project]: https://developers.google.com/maps/documentation/android-sdk/cloud-setup#enabling-apis
+[Sign up with Google Maps Platform]: https://console.cloud.google.com/google/maps-apis/start
 
 
 
